@@ -13,6 +13,7 @@ declare namespace ಠ_ಠ.clutz {
     C = 3.0 ,
   }
 }
+// Generated from src/test/java/com/google/javascript/clutz/testdata/partial/declare_legacy_namespace_enum.js
 declare namespace ಠ_ಠ.clutz.module$exports$declare$legacy$namespace$enum {
   export import E = ಠ_ಠ.clutz.module$contents$declare$legacy$namespace$enum_E ;
 }

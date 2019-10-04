@@ -810,6 +810,7 @@ class DeclarationGenerator {
         if (symbol != null) {
           JSType type = symbol.getType();
           if (type != null && isDefiningType(type)) {
+            emitGeneratedFromFileComment(symbol.getSourceFile());
             emitNamespaceBegin(namespace);
             treeWalker.visitTypeValueAlias(googModuleStyleName, type.toMaybeObjectType());
             emitNamespaceEnd();
